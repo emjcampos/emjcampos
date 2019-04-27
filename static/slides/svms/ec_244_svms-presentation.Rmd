@@ -1,0 +1,115 @@
+---
+title: "Support Vector Machines"
+subtitle: "An Introduction"
+author: "Emilie Campos, UCLA"
+date: "2019-04-30"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: ""
+    css: ["metropolis", "metropolis-fonts"]
+---
+
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+    padding: 1em 4em 1em 4em;
+}
+</style>
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE)
+
+library(ggplot2)
+```
+
+# Overview 
+
+- Maximal Margin Classifier 
+
+- Support Vector Classifier 
+
+- Support Vector Machines 
+
+
+???
+
+start from the most simple and generalize 
+
+---
+class: inverse, center, middle
+
+# Maximal Margin Classifier 
+
+???
+
+the maximal margin classifer is the hyperplane that has the largest boundary between all of the points, the key point here is that the points are separable
+
+---
+
+# Maximal Margin Classifier 
+
+```{r maximal margin scatterplot}
+set.seed(1234)
+max_margin_data <- rbind(
+  data.frame(x = rnorm(5, 0, 1), y = rnorm(5, 0, 1), group = "Group 1"),
+  data.frame(x = rnorm(5, 5, 1), y = rnorm(5, 5, 1), group = "Group 2")
+)
+ggplot(max_margin_data) + 
+  geom_point(aes(x,y, color = factor(group))) + 
+  theme(legend.title = element_blank())
+```
+
+???
+
+it's easy to see here that this data is separable by a line
+
+---
+
+# Maximal Margin Classifier 
+
+```{r maximal margin hyperplanes}
+ggplot(max_margin_data) + 
+  geom_point(aes(x,y, color = factor(group))) + 
+  theme(legend.title = element_blank()) + 
+  geom_abline(slope = -2, intercept = 6) + 
+  geom_abline(slope = -1, intercept = 4) + 
+  geom_abline(slope = 0.2, intercept = 2)
+```
+
+$$\beta_0 + \beta_1 x + \beta_2 y = 0$$
+
+???
+
+there are many separating lines, we want the one that is least likely to misclassify data which would be the one with the maximal margin between the data and the line 
+
+However, we rarely work with one predictor. Luckily, a line is a hyperplane so we can easily extend our example to $p$ dimensions. 
+
+---
+
+# Maximal Margin Classifer 
+
+A *hyperplane* is a flat affine subspace of dimension $p-1$
+
+---
+class: inverse, center, middle
+
+# Support Vector Classifier 
+
+---
+class: inverse, center, middle
+
+# Support Vector Machines
+
+---
+
+class: inverse, center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

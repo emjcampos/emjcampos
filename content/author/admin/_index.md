@@ -1,48 +1,40 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Perpetual Student & Knitting Fool 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
+  - course: MS in Biostatistics
+    institution: University of California, Los Angeles
+    year: expected 2019
+  - course: BS in Applied Math and Statistics
+    institution: California State Polytechnic University, Pomona
+    year: 2016
+email: "emjcampos00@gmail.com"
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-name: Nelson Bighetti
+- Functional Data Analysis 
+- High Dimensional Data
+name: Emilie Campos
 organizations:
-- name: Stanford University
+- name: University of California, Los Angeles
   url: ""
-role: Professor of Artificial Intelligence
+role: Graduate Student Researcher
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/emjcampos
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/emjcampos
 superuser: true
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello! I'm Emilie. I am a researcher and biostatistics student at UCLA. I have two broad areas of interest: methodology for analyzing multi-task EEG data and data visualization. As a student in a collaborative science, I believe it is not only important to develop novel statistical methods, but also to communicate results to practioners. I am an active member of the LA East R Users Group and R-Ladies. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+In addition to my academic pursuits, I am an avid knitter and dog mom. 

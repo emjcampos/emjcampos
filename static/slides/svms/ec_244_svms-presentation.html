@@ -42,6 +42,8 @@ class: center, middle, inverse, title-slide
 
 # Overview 
 
+Introduction to Statistical Learning with Applications in R (ISLR), Chapter 9:
+
 - Maximal Margin Classifier 
 
 - Support Vector Classifier 
@@ -96,15 +98,10 @@ However, we rarely work with one predictor. Luckily, a line is a hyperplane so w
 
 A *hyperplane* is a flat affine subspace of dimension `\(p-1\)`  
 
---
-
 - in 2D: a line
 `$$\beta_0 + \beta_1 X_1 + \beta_2 X_2 = 0$$`
---
-
 - in 3D: a plane
 `$$\beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 = 0$$`
---
 
 - Generalized to the `\(p\)`-dimensional setting:
 `$$\beta_0 + \beta_1 X_1 + \beta_2 X_2 + ... + \beta_p X_p = 0$$`
@@ -239,14 +236,6 @@ when `\(C\)` is large, the margins are wide and there are more violations and mi
 ]
 
 ---
-
-# Support Vector Classifier 4
-
-The inner product of two vectors `\(x_i\)` and `\(x_{i^\prime}\)` is `\(\langle x_i, x_{i^\prime}\rangle = \sum_{j=1}^p x_{ij}x_{i^\prime j}.\)` The support vector classifier can be rewritten using *inner products* `$$f(x) = \beta_0 + \sum_{i=1}^n \alpha_i \langle x, x_i\rangle$$` where there are `\(n\)` parameters `\(\alpha_i\)`.
-
-To estimate the `\(\alpha_i\)` and `\(\beta_0\)`, we need all `\({n \choose 2}\)` inner products `\(\langle x_i, x_{i^\prime}\rangle\)`. Turns out, `\(\alpha_i\)` is nonzero only for the support vectors in the solution so if `\(\mathbb{S}\)` is the set of support vectors then `$$f(x) = \beta_0 + \sum_{i\in \mathbb{S}}\alpha_i\langle x, x_i\rangle.$$` 
-
----
 class: inverse, center, middle
 
 # Support Vector Machines
@@ -264,6 +253,15 @@ Rather than fitting a support vector classifier using `\(p\)` features `$$X_1, .
 ???
 
 instead, we're going to want to use *kernels*
+
+---
+
+# Support Vector Classifier Revisted
+
+The inner product of two vectors `\(x_i\)` and `\(x_{i^\prime}\)` is `\(\langle x_i, x_{i^\prime}\rangle = \sum_{j=1}^p x_{ij}x_{i^\prime j}.\)` The support vector classifier can be rewritten using *inner products* `$$f(x) = \beta_0 + \sum_{i=1}^n \alpha_i \langle x, x_i\rangle$$` where there are `\(n\)` parameters `\(\alpha_i\)`.
+
+To estimate the `\(\alpha_i\)` and `\(\beta_0\)`, we need all `\({n \choose 2}\)` inner products `\(\langle x_i, x_{i^\prime}\rangle\)`. Turns out, `\(\alpha_i\)` is nonzero only for the support vectors in the solution so if `\(\mathbb{S}\)` is the set of support vectors then `$$f(x) = \beta_0 + \sum_{i\in \mathbb{S}}\alpha_i\langle x, x_i\rangle.$$` 
+
 
 ---
 
@@ -315,11 +313,41 @@ Here, the crosses represent misclassifications. 12\\% of the test observations w
 
 # Connection to Logistic Regression
 
-
+The SVM can be rewritten as 
+`$$\text{minimize}_{\beta_0, \beta_1, ..., \beta_p}\large{\sum_{i=1}^n[0,1-y_if(x_i)] + \lambda\sum_{j=1}^p\beta_j^2\large}$$`
+where `\(\lambda\)` is a nonnegative tuning parameter
 
 ???
 
+when SVMs were first introduced, they were incredibly popular due to their good performance as well as the fact that they were novel and mysterious 
+
+however, there are deep connections between SVMs and more classical methods such as 
+
+when lambda is large then the betas are small, more violations to the margin are tolerated and a low-variance but high-bias classifier will result 
+
+when lambda is small then few violations will occur 
+
+so lambda plays the role similar to the cost `\(C\)` 
+
+the first term is the loss function, known as hinge loss, closely related to the loss function used in logistic regression
+
+when classes are well separated, SVMs tend to perform better than logisitic regression and when they are more overlapping, it is better to use logisitic regression
+
 use the right tool for the job, it's common to talk about machine learning to sound hip and advanced 
+
+---
+
+# SVMs with More than Two Classes
+
+Two proposed approaches: 
+
+- One-Versus-One Classification: `\(K&gt;2\)` classes, construct `\({K \choose 2}\)` SVMs, tally how many times class `\(k\)` is chosen for observation `\(k\)`
+
+- One-Versus-All Classification: `\(K&gt;2\)` classes, construct `\(K\)` SVMs in which class `\(k\)` is compared to the remaining `\(k-1\)` classes, assign observation `\(x^\star\)` to the class for which `\(\beta_{0k} + \beta_{1k}x_1^\star + ... + \beta_{pk}x^\star_p\)` is the largest 
+
+???
+
+so far I've only described problems with a binary classification setting, and the SVM idea of separating hyperplanes does not generalize easily to more than two classes 
 
 ---
 

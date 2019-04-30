@@ -35,6 +35,6 @@ user_groups:
 - Visitors
 ---
 
-Hello! I'm Emilie. I am a researcher and biostatistics student at UCLA. I have two broad areas of interest: methodology for analyzing multi-task EEG data and data visualization. As a student in a collaborative science, I believe it is not only important to develop novel statistical methods, but also to communicate results to practioners. I am an active member of the LA East R Users Group and R-Ladies. 
+I'm Emilie. I am a researcher and biostatistics student at UCLA. I have two broad areas of interest: methodology for analyzing multi-task EEG data and data visualization. As a student in a collaborative science, I believe it is not only important to develop novel statistical methods, but also to communicate results to practioners. I am an active member of the LA East R Users Group and R-Ladies. 
 
 In addition to my academic pursuits, I am an avid knitter and dog mom. 

@@ -1,5 +1,11 @@
 \documentclass[]{deedy-resume-openfont}
 
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
 
 \begin{document}
 
@@ -7,7 +13,7 @@
 
 \namesection{}{Emilie Campos} { 
 1109 E Grovecenter St, West Covina, CA \\
-\href{mailto:ejcampos@ucla.edu}{ejcampos@ucla.edu} | 626.482.0925 | LinkedIn: \href{https://www.linkedin.com/in/ejcampos/}{ejcampos} | Github: \href{https://www.github.com/ejcampos/}{ejcampos}
+\href{mailto:ejcampos@ucla.edu}{ejcampos@ucla.edu} | 626.482.0925 | LinkedIn: \href{https://www.linkedin.com/in/ejcampos/}{ejcampos} | Github: \href{https://www.github.com/emjcampos/}{emjcampos}
 }
 
 \section{Professional Summary} 
@@ -22,7 +28,11 @@ UCLA Masters student in Biostatistics with a strong background in Mathematics an
 \location{Earned June 2019 | Los Angeles, CA $\cdot$ Cum. GPA: 4.0}
 \vspace{-.25em}
 \begin{tightemize} 
-\item Individual Project, Statistical Computing, Biostatistics Dept: Used SAS and R to analyze a dataset of behavioral screening questionnaire answers for children. Converted a wide data set to longitudinal in order to find summary statistics. Used R to simulate similar data and wrote a function to explore how sample size and proportion of missing completely at random values affected significance.
+\item Individual Project, Statistical Computing: Used SAS and R to analyze a dataset of behavioral screening questionnaire answers for children. Converted a wide data set to longitudinal in order to find summary statistics. Used R to simulate similar data and wrote a function to explore how sample size and proportion of missing completely at random values affected significance.
+% \item Individual Project, Linear Regression: (200B Final project) 
+% \item Individual Project, Logisitic Regression: (200C Final project)
+% \item Group Project, Survival Analysis: (M215 Final Project) 
+% \item Individual Project, Bayesian: (M234 First Project)
 \end{tightemize}
 \sectionsep
 
@@ -38,12 +48,20 @@ UCLA Masters student in Biostatistics with a strong background in Mathematics an
 \end{tightemize}
 \sectionsep
 
+
+\section{Publications} 
+\begin{packed_enum} 
+\item \textbf{Campos, E.}, Hazlett C., Tan P., Truong H., Loo S., Distefano C., Jeste S., Senturk D. (Under review 2019) Principle ERP Reduction and analysis: Estimating and using principle ERP waveforms underlying ERPs across tasks, subjects, and electrodes. \textit{NeuroImage}.
+\end{packed_enum} 
+\vspace{-1em}
+\sectionsep
+
 \section{Experience}
 
 \runsubsection{UCLA}
 \descript{| Teaching Assistant \& Graduate Student Researcher}
 \location{January 2018 - present | Los Angeles, CA}
-\vspace{-.25em} % Hacky fix for awkward extra vertical space
+\vspace{-.25em}
 \begin{tightemize}
 \item Teaching assistant: Lead labs in Introduction to Biostatistics for undergraduates in biological fields and nursing and labs in Introduction to Data Management and Statistical Computing for undergraduates and graduate students in computer science and biostatistics 
 \item Researcher: Used principal and independent components analysis on functional data to develop an algorithm to estimate the canonical components underlying EEG signals across tasks, subjects, and electrodes. Analysis was done with simulations and with data supplied by the Semel Institute for Neuroscience and Human Behavior. This project necessitated collaboration across disciplines and effective communication. 
@@ -70,15 +88,18 @@ UCLA Masters student in Biostatistics with a strong background in Mathematics an
 \end{tabular}
 \sectionsep
 
+
+
+
 \section{Skills}
 \begin{minipage}[t]{.6\textwidth}
 \subsection{Analytical}
-Statistics, \, Regression, \, Random Processes, \, Combinatorics, \, Sampling Theory and Applications, \, Modeling, \, Getting and Cleaning Data, \, Cloud Computing
+Statistics, \, Regression, \, Random Processes, \, Combinatorics, \, Sampling Theory and Applications, \, Modeling,  \, Functional Data Analysis
 \sectionsep
 \end{minipage}
 \hfill
 \begin{minipage}[t]{.35\textwidth}
 \subsection{Computing}
-R, \, SAS, \, STATA, \, \LaTeX, \, Matlab, \,  Git/Github
+Getting and Cleaning Data, \, Cloud Computing \, R, \, SAS, \, STATA, \, \LaTeX, \, Matlab, \,  Git/Github
 \end{minipage}
 \end{document}

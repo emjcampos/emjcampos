@@ -4,9 +4,12 @@ authors:
 bio: Perpetual Student & Knitting Fool 
 education:
   courses:
+  - course: PhD in Biostatistics
+    institution: University of California, Los Angeles
+    year: expected 2022
   - course: MS in Biostatistics
     institution: University of California, Los Angeles
-    year: expected 2019
+    year: 2019
   - course: BS in Applied Math and Statistics
     institution: California State Polytechnic University, Pomona
     year: 2016

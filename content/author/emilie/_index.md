@@ -34,7 +34,7 @@ social:
   icon_pack: fab
   link: https://github.com/emjcampos
 - icon: heart
-  icon_pack: fab
+  icon_pack: fas
   link: https://www.ravelry.com/people/gingerlie
 superuser: true
 user_groups:

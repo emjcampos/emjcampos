@@ -1,7 +1,7 @@
 +++
 abstract = "Support vector machines (SVMs)"
 all_day =  false
-authors =  ["admin"]
+authors =  ["emilie"]
 date = "2019-04-30T13:00:00-07:00"
 date_end = "2019-04-30T15:00:00-07:00"
 event =  "BIOSTAT 244 "

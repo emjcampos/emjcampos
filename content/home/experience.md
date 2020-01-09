@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   company = "UCLA" 
   location = "California" 
   date_start = "2018-01-01" 
-  date_end = "" 
+  date_end = "2019-03-18" 
   description = """
   Courses: 
   

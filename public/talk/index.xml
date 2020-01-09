@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Emilie Campos</title>
+    <title>All Talks &amp; Workshops on Emilie Campos</title>
     <link>/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Emilie Campos</description>
+    <description>Recent content in All Talks &amp; Workshops on Emilie Campos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2019 13:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2020 13:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Principle ERP Reduction (pERP-RED)</title>
+      <link>/talk/2020-perpred/perpred/</link>
+      <pubDate>Thu, 09 Jan 2020 13:00:00 -0700</pubDate>
+      
+      <guid>/talk/2020-perpred/perpred/</guid>
+      <description>An introduction to Principle ERP Reduction (pERP-RED)</description>
+    </item>
+    
+    <item>
       <title>Support Vector Machines</title>
-      <link>/talk/svms/</link>
+      <link>/talk/2019-svms/svms/</link>
       <pubDate>Tue, 30 Apr 2019 13:00:00 -0700</pubDate>
       
-      <guid>/talk/svms/</guid>
+      <guid>/talk/2019-svms/svms/</guid>
       <description>An introduction to support vector machines for the purpose of practicing public speaking.</description>
     </item>
     

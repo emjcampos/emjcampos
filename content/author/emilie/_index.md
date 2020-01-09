@@ -1,6 +1,6 @@
 ---
 authors:
-- admin
+- emilie
 bio: Perpetual Student & Knitting Fool 
 education:
   courses:
@@ -17,6 +17,7 @@ email: "emjcampos00@gmail.com"
 interests:
 - Functional Data Analysis 
 - High Dimensional Data
+- Data visualization
 name: Emilie Campos
 organizations:
 - name: University of California, Los Angeles
@@ -38,6 +39,6 @@ user_groups:
 - Visitors
 ---
 
-I'm Emilie. I am a researcher and biostatistics student at UCLA. I have two broad areas of interest: methodology for analyzing multi-task EEG data and data visualization. As a student in a collaborative science, I believe it is not only important to develop novel statistical methods, but also to communicate results to practioners. I am an active member of the LA East R Users Group and R-Ladies. 
+I'm Emilie. I am a researcher and biostatistics student at UCLA. I have two broad areas of interest: methodology for analyzing multi-task EEG data and data visualization. As a student in a collaborative science, I believe it is not only important to develop novel statistical methods, but also to communicate results to practioners. I am the Vice President of Financial Affairs for the Biostatistics Student Association at UCLA as well as an active member of the LA East R Users Group and R-Ladies. 
 
 In addition to my academic pursuits, I am an avid knitter and dog mom. 

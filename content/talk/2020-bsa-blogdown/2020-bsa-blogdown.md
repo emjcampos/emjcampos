@@ -8,7 +8,7 @@ event =  "BSA Workshops"
 featured =  false 
 location =  "UCLA, Los Angeles, California"
 math =  true
-publishDate = "2019-03-05T00:00:00-07:00"
+publishdate = "2019-03-05T00:00:00-07:00"
 summary = "An introduction to blogdown"
 title = "blogdown & You"
 

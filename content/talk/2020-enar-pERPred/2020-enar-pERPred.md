@@ -8,7 +8,7 @@ event =  "ENAR"
 featured =  false 
 location =  "Nashville, Tennessee"
 math =  true
-publishDate = "2019-03-22T00:00:00-07:00"
+publishdate = "2019-03-22T00:00:00-07:00"
 summary = "An introduction to Principle ERP Reduction (pERP-RED) and pERP-space analysis"
 title = "Principle ERP Reduction (pERP-RED)"
 

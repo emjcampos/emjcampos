@@ -22,7 +22,7 @@ name: Emilie Campos
 organizations:
 - name: University of California, Los Angeles
   url: "https://biostat.ucla.edu"
-role: Graduate Student Researcher
+role: PhD Student
 social:
 - icon: envelope
   icon_pack: fas
@@ -37,9 +37,6 @@ social:
   icon_pack: fas
   link: https://www.ravelry.com/people/gingerlie
 superuser: true
-user_groups:
-- Researchers
-- Visitors
 ---
 
 I'm Emilie. I am a researcher and biostatistics student at UCLA working with [Dr. Damla Senturk](http://dsenturk.bol.ucla.edu/). I have two broad areas of interest: methodology for analyzing multi-task EEG data and data visualization. As a student in a collaborative science, I believe it is not only important to develop novel statistical methods, but also to communicate results to practioners. I am the Vice President of Financial Affairs for the Biostatistics Student Association at UCLA as well as an active member of the LA East R Users Group and R-Ladies. 

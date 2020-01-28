@@ -21,7 +21,7 @@ url_poster = ""
 url_project = ""
 url_source = ""
 url_pdf = ""
-url_slides = "../slides/pERPred/pERPred.html"
+url_slides = "../slides/pERPred/pERPred-full-talk.pdf"
 url_video = ""
 +++
     

@@ -19,11 +19,6 @@
   weight = 30
 
 [[main]]
-  name = "Projects"
-  url = "/projects"
-  weight = 40
-
-[[main]]
   name = "CV"
   url = "files/emilie-campos-cv.pdf"
   weight = 50

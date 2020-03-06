@@ -2,8 +2,8 @@
 abstract = ""
 all_day =  false
 authors =  ["emilie"]
-date = "2020-03-05T12:00:00-07:00"
-date_end = "2020-03-05T13:00:00-07:00"
+date = "2020-03-31T12:00:00-07:00"
+date_end = "2020-03-31T13:00:00-07:00"
 event =  "BSA Workshops"
 featured =  false 
 location =  "UCLA, Los Angeles, California"
@@ -21,7 +21,7 @@ url_poster = ""
 url_project = ""
 url_source = ""
 url_pdf = ""
-url_slides = ""
+url_slides = "../slides/2020-blogdown/blogdown.html"
 url_video = ""
 +++
     

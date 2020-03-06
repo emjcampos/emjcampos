@@ -16,10 +16,10 @@ baseurl = "https://emjcampos.netlify.com/"
 copyright = "&copy; {year}"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-159906151-1"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "emilie_campos"
 
 ############################
 ## Advanced options below ##

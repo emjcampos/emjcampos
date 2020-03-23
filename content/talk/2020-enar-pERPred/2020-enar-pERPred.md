@@ -20,7 +20,7 @@ url_dataset = ""
 url_poster = ""
 url_project = ""
 url_source = ""
-url_pdf = ""
+url_pdf = "https://doi.org/10.1016/j.neuroimage.2020.116630"
 url_slides = "../slides/pERPred/pERPred-full-talk.pdf"
 url_video = ""
 +++

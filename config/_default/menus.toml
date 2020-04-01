@@ -20,12 +20,8 @@
 
 [[main]]
   name = "CV"
-  url = "files/emilie-campos-cv.pdf"
+  url = "files/CV/Campos_CV.pdf"
   weight = 50
 
-[[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 60
 
 

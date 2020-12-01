@@ -30,6 +30,10 @@ subtitle = ""
     tag = "R"
     
   [[content.filter_button]]
+    name = "Coursework"
+    tag = "coursework"
+    
+  [[content.filter_button]]
     name = "Software"
     tag = "software"
 

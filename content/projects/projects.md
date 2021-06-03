@@ -24,7 +24,11 @@ subtitle = ""
   [[content.filter_button]]
     name = "All"
     tag = "*"
-  
+    
+  [[content.filter_button]]
+    name = "Dissertation"
+    tag = "dissertation"
+    
   [[content.filter_button]]
     name = "R"
     tag = "R"
@@ -36,10 +40,6 @@ subtitle = ""
   [[content.filter_button]]
     name = "Software"
     tag = "software"
-
-  [[content.filter_button]]
-    name = "Workshop"
-    tag = "workshop"
   
   [[content.filter_button]]
     name = "Knitting"
@@ -56,7 +56,7 @@ subtitle = ""
   view = 3
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = true
+  flip_alt_rows = false
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -65,7 +65,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  # color = "navy"
+  # color = "white"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"

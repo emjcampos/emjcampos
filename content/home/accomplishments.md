@@ -20,12 +20,32 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "UCLA Graduate Division"
+  organization_url = "https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/dissertation-year-fellowship/"
+  title = "Dissertation Year Fellowship"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = ""
+  date_start = "2022-06-17"
+  date_end = ""
+  description = ""
+  
+  [[item]]
+  organization = "UCLA Graduate Division"
+  organization_url = "https://grad.ucla.edu/funding/financial-aid/funding-for-continuing-students/graduate-research-mentorship-program/"
+  title = "Graduate Research Mentorship"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-10-01"
+  date_end = ""
+  description = ""
+  
+  [[item]]
+  organization = "UCLA Fielding School of Public Health"
+  organization_url = ""
+  title = "Abdelmonmen A. Afifi Student Fellowship"
+  url = ""
+  certificate_url = ""
+  date_start = "2019-05-01"
   date_end = ""
   description = ""
 

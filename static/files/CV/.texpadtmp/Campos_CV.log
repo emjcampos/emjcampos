@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  1 MAR 2021 14:32
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  1 JUL 2022 10:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,35 +605,42 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.3> not available
 (Font)              size <5> substituted on input line 69.
 
-
-Package hyperref Warning: Suppressing empty link on input line 116.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 245.
+(Font)              <7> on input line 259.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 245.
+(Font)              <5> on input line 259.
+
+Underfull \hbox (badness 1297) in paragraph at lines 266--268
+\TU/Tinos-Regular.ttf(0)/m/n/10 for Clinical Trials (2022) Multilevel hybrid principal components analysis for region-referenced
+ []
+
 [1
 
 ]
+Underfull \hbox (badness 1112) in paragraph at lines 287--289
+[][]$[]$\TU/Tinos-Regular.ttf(0)/m/n/10 , Scheffler, A.W, Telesca, D., Sugar, C., DiStefano C., Jeste S., Şentürk D. (2022)
+ []
 
-./Campos_CV.tex:400: LaTeX Error: \begin{list} on input line 76 ended by \end{document}.
+[2]
+
+./Campos_CV.tex:475: LaTeX Error: \begin{list} on input line 76 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 \end{document}
+l.475 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 475.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 475.
  (/Users/ecampos/Google Drive/Documents/workspace/emjcampos/static/files/CV/.texpadtmp/Campos_CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 400.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 475.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 475.
 Package rerunfilecheck Info: File `Campos_CV.out' has not changed.
 (rerunfilecheck)             Checksum: .
 
@@ -641,7 +648,7 @@ Package rerunfilecheck Info: File `Campos_CV.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.7pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 475.
  )
 (\end occurred inside a group at level 2)
 
@@ -650,11 +657,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
 ### bottom level 
 Here is how much of TeX's memory you used:
  26005 strings out of 492916
- 498296 string characters out of 6133346
- 573764 words of memory out of 5000000
+ 498305 string characters out of 6133346
+ 577001 words of memory out of 5000000
  29918 multiletter control sequences out of 15000+600000
  534737 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  47i,5n,69p,928b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/ecampos/Google Drive/Documents/workspace/emjcampos/static/files/CV/.texpadtmp/Campos_CV.pdf (2 pages).
+Output written on /Users/ecampos/Google Drive/Documents/workspace/emjcampos/static/files/CV/.texpadtmp/Campos_CV.pdf (3 pages).
